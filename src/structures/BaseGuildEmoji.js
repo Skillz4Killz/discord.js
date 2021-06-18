@@ -40,7 +40,7 @@ class BaseGuildEmoji extends Emoji {
        * Whether or not this emoji requires colons surrounding it
        * @type {?boolean}
        */
-      this.requiresColons = data.require_colons;
+      this.requireColons = data.require_colons;
     }
 
     if (typeof data.managed !== 'undefined') {
